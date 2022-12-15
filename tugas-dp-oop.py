@@ -1,3 +1,5 @@
+## Syamsul
+
 import pandas as pd
 from datetime import date
 
@@ -59,6 +61,9 @@ class Referensi:
     # Fungsi untuk membuat sebuah garis atau pembatas
     def garis(self, jumlah_garis = 75):
         return "="*jumlah_garis 
+
+
+## Ferdinal
 
 # Class Data berisi data-data yang diinputkan oleh user/pengguna yang nantinya akan dikalkulasikan berdasarkan data yang diberikan oleh Parent-nya yaitu (Class Referensi)
 class Data(Referensi):
@@ -170,6 +175,9 @@ def validasi_jenis_kereta(jenis, kelas):
     else:
         # Jika false pada 3 kondisi diatas, maka akan mengembalikan pesan error
         raise ValueError('Jenis Kereta yang anda masukkan salah, tolong masukkan Jenis Kereta [B/S/F]')
+
+
+## Rifky
 
 # Fungsi untuk menampilkan dan menyimpan data dari Form Input
 def form_input(i, jumlah_data):
